@@ -1,0 +1,35 @@
+@page {
+  size: auto;
+  margin: 0mm 15mm 0mm 15mm;
+}
+
+@media print {
+  body {
+    background: #ffffff;
+  }
+  .visible-print {
+    display: inherit !important;
+  }
+
+  .hidden-print {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    font-family: Arial;
+    color: black;
+    height: 100%;
+  }
+
+  .wrap {
+    min-height: 750px;
+  }
+  
+  .si-l3-md-up>.layout-content,
+  .si-l3-md-up>.st-container>.st-pusher>.st-content>.layout-content {
+    padding: 0;
+    margin: 0;
+  }
+}
+

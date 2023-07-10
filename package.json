@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "cross-env": "^7.0.3",
+        "exports-loader": "^3.1.0",
+        "imports-loader": "^3.1.1",
+        "laravel-mix": "^6.0.39",
+        "lodash": "^4.17.19",
+        "node-sass": "^6.0.1",
+        "postcss": "^8.1.14",
+        "sass-loader": "^12.3.0",
+        "template-tag-loader": "^0.0.1",
+        "vue": "^2.6.14",
+        "vue-loader": "^15.9.8"
+    },
+    "dependencies": {
+        "@tinymce/tinymce-vue": "^3.2.8",
+        "clipboard-polyfill": "^3.0.3",
+        "pc-bootstrap4-datetimepicker": "^4.17.51",
+        "prod": "^1.0.1",
+        "promise-polyfill": "8.2.1",
+        "tinymce": "^5.10.1",
+        "tinymce-vue": "^1.0.0",
+        "vue-bootstrap-datetimepicker": "^5.0.1",
+        "vue-cli": "^2.9.6",
+        "vue-swal": "^1.0.0",
+        "vue-template-compiler": "^2.6.14",
+        "vuedraggable": "^2.24.3",
+        "vueify": "^9.4.1"
+    }
+}
